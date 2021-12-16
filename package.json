@@ -1,0 +1,24 @@
+{
+  "name": "piscina-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "main": "./index.js"
+  },
+  "pkg": {
+    "targets": [
+      "node16-win-x64"
+    ],
+    "outputPath": ".dist"
+  },
+  "scripts": {
+    "build": "pkg .",
+    "buildWithLog": "pkg -d . > ./build-logs/build.log"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "piscina": "^3.2.0"
+  }
+}
