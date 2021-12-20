@@ -10,6 +10,10 @@
     "targets": [
       "node16-win-x64"
     ],
+    "assets": [
+      "node_modules/piscina/dist/src/worker.js",
+      "*.js"
+    ],
     "outputPath": ".dist"
   },
   "scripts": {
